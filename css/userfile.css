@@ -1032,6 +1032,9 @@ bbb {
     margin-right: 10px;
     margin-bottom: 5px;
   }
+  .search-option:nth-child(3n) {
+    margin-right: 0!important;
+  }
   .search-option>input{
     margin-right: 4px;
 
