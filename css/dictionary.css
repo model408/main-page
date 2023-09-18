@@ -1,0 +1,117 @@
+.rBoxWht {
+    background-color: #ffffff;
+    border: solid 2px #d0d0d0;
+    padding: 0px 10px;
+}
+
+.rBox {
+    margin-bottom: 16px;
+    overflow: auto;
+}
+
+.rInf, .rInf a {
+    color: #848484;
+    fill: #c5c5c5;
+}
+
+p.vGrnd {
+    font-size: 2.2em;
+}
+
+.rCntr {
+    text-align: center;
+}
+
+.rClear {
+    clear: both;
+}
+
+b > i {
+    color: #028b02;
+    font-style: normal;
+}
+
+p.vStm {
+    font-size: 1.55em;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    div.vTbl {
+        min-width: 48%;
+    }
+}
+
+@media (max-width: 700px) {
+    div.vTbl {
+        min-width: 30%;
+    }
+}
+
+@media (max-width: 900px) {
+    div.vTbl {
+        min-width: 48%;
+    }
+}
+
+div.vTbl {
+    float: left;
+    min-width: 30%;
+    margin: 5px 0 15px 0;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+vTbl h3, .vBsp h3, .vTbl h2, .vBsp h2 {
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-top: 0;
+    line-height: 25px;
+}
+
+.rAbschnitt .rH2, .rAbschnitt h2 {
+    color: #FF4081;
+}
+
+h1, h2 {
+    color: #000084;
+}
+
+h2, .rH2 {
+    font-size: 1.35em;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.vTbl tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.vTbl td {
+    padding-right: 5px;
+    white-space: nowrap;
+}
+
+td, th {
+    padding: 0;
+    vertical-align: top;
+}
+
+.rNt, .vTbl h2 {
+    color: #FF4081;
+}
