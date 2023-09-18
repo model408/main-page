@@ -380,8 +380,8 @@
             </div>
 
             <div
-              class="div-center border-solid-r10"
-              style="justify-content: space-evenly"
+              class="div-center border-solid-r10 py-2"
+              style="justify-content: space-around;margin-bottom: 7px"
             >
               <img class="w-h-50" src="/images/game.png" onclick="rediGT()" />
               <img
@@ -389,13 +389,7 @@
                 src="/images/listen.png"
                 onclick='testing("listen")'
               />
-              <button
-                id="btnCreateText"
-                onclick="createText()"
-                class="button-save"
-              >
-                Save
-              </button>
+              
               <img
                 class="w-h-50"
                 src="/images/speaking.png"
@@ -406,6 +400,15 @@
                 src="/images/do-exercise.jpg"
                 onclick="rediTest()"
               />
+            </div>
+            <div class="d-flex justify-content-center">
+              <button
+                id="btnCreateText"
+                onclick="createText()"
+                class="button-save"
+              >
+                Save
+              </button>
             </div>
             <div id="create-noti" class="create-noti"></div>
             <hr class="hr" />
@@ -585,7 +588,7 @@
                 </div>
               </div>
             </div>
-
+            <hr class="hr">
             <div class="gr-and-docs">
               <div class="dflex-g7">
                 <label class="margin-vertical-7" for="user-group"
