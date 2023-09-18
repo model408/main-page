@@ -1020,7 +1020,7 @@ bbb {
   .search-filter {
     display: flex!important;
     /* grid-template-columns: 1fr 1fr 1fr; */
-    padding: 5px 0 10px 10px;
+    padding: 5px 0 5px 10px;
     row-gap: 10px;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -1028,8 +1028,11 @@ bbb {
   .search-option{
     display: flex;
     align-items: center;
-    min-width: 30%;
+    /* min-width: 30%; */
+    margin-right: 10px;
+    margin-bottom: 5px;
   }
   .search-option>input{
     margin-right: 4px;
+
   }
